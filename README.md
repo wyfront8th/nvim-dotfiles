@@ -39,39 +39,39 @@ chsh -s /usr/local/bin/fish
 ## 1.2. 配置neovim插件概览
 
 -  **包管理插件**
-[wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) 插件包管理软件 
+	- [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) 插件包管理软件 
 -  **颜色插件**
-[catppuccin/nvim](https://github.com/catppuccin/nvim) 支持透明背景
-[Tsuzat/NeoSolarized.nvim: ](https://github.com/Tsuzat/NeoSolarized.nvim)透明色彩 
+	- [catppuccin/nvim](https://github.com/catppuccin/nvim) 支持透明背景
+ 	- [Tsuzat/NeoSolarized.nvim: ](https://github.com/Tsuzat/NeoSolarized.nvim)透明色彩 
 -  **自动补全插件**
-[hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) 代码自动完成引擎
-[hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)  neovim内建的LSP，为nvim-cmp引擎提供补全数据
-[hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) 缓冲区，为nvim-cmp引擎提供补全数据 
+ 	- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) 代码自动完成引擎
+ 	- [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)  neovim内建的LSP，为nvim-cmp引擎提供补全数据
+ 	- [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) 缓冲区，为nvim-cmp引擎提供补全数据 
 -  **代码片段**
-[L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) 代码片段引擎（Snippet Engine）
-[rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) 常用代码片段
-[saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) 代码片段自动完成 
+	- [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) 代码片段引擎（Snippet Engine）
+	- [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) 常用代码片段
+	- [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) 代码片段自动完成 
 -  **LSP服务管理插件**
-[williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) 
+	- [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) 
 -  **LSP服务器配置**
-[williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)  安装LSP服务
-[neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)                     LSP服务配置
-[glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)                         LSP提示界面
-[onsails/lspkind.nvim](https://github.com/onsails/lspkind.nvim)                          LSP代码提示显示
+	- [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)  安装LSP服务
+	- [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)                     LSP服务配置
+	- [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)                         LSP提示界面
+	- [onsails/lspkind.nvim](https://github.com/onsails/lspkind.nvim)                          LSP代码提示显示
 -  UI及**辅助工具**
-[nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
-[nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)   树状文件浏览器
-[nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)  文件查找
-[lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) 缩进线
-[akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签栏
-[akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) 在neovim中打开终端
-[terrortylor/nvim-comment: ](https://github.com/terrortylor/nvim-comment)注释工具
-[norcalli/nvim-colorizer.lua:](https://github.com/norcalli/nvim-colorizer.lua) 颜色代码显示 
-[kevinhwang91/nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) 代码折叠
+	- [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
+	- [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)   树状文件浏览器
+	- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)  文件查找
+	- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) 缩进线
+	- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签栏
+	- [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) 在neovim中打开终端
+	- [terrortylor/nvim-comment: ](https://github.com/terrortylor/nvim-comment)注释工具
+	- [norcalli/nvim-colorizer.lua:](https://github.com/norcalli/nvim-colorizer.lua) 颜色代码显示 
+	- [kevinhwang91/nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) 代码折叠
 -  **代码高亮和格式化**
-[jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) 代码格式化
-[MunifTanjim/prettier.nvim](https://github.com/MunifTanjim/prettier.nvim) 代码格式化
-[nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) 代码高亮 
+	- [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) 代码格式化
+	- [MunifTanjim/prettier.nvim](https://github.com/MunifTanjim/prettier.nvim) 代码格式化
+	-[nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) 代码高亮 
 
 ## 1.3 NeoVim配置文件结构
 ```
