@@ -22,7 +22,7 @@ keymap({ "n", "v" }, "<leader>ca", "<cmd>Lspsaga code_action<CR>", { silent = tr
 keymap("n", "gr", "<cmd>Lspsaga rename<CR>", { silent = true })
 
 -- Peek Definition
-keymap("n", "gd", "<cmd>Lspsaga peek_definition<CR>", { silent = true })
+keymap("n", "gd", "<cmd>Lspsaga goto_definition<CR>", { silent = true })
 -- Show line diagnostics
 keymap("n", "<leader>cd", "<cmd>Lspsaga show_line_diagnostics<CR>", { silent = true })
 

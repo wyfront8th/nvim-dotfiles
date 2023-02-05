@@ -74,10 +74,20 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "git@github.com:numToStr/Comment.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "git@github.com:L3MON4D3/LuaSnip"
+  },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "git@github.com:akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -103,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "git@github.com:tjdevries/colorbuddy.nvim"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "git@github.com:lukas-reineke/indent-blankline.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -173,6 +188,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "git@github.com:nvim-lua/plenary.nvim"
+  },
+  ["telescope-file-browser.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
+    url = "git@github.com:nvim-telescope/telescope-file-browser.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "git@github.com:nvim-telescope/telescope.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/Users/wangyifeng/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "git@github.com:akinsho/toggleterm.nvim"
   }
 }
 
